@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-container{
+    background-color: rgb(10, 156, 156);
+    background-image: url(bg-pattern-top.svg);
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.main-hero{
+    border-radius: 2em;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 55%;
+    width: 21.9em;
+    height:25em;
+    margin-top: -11em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    text-align: center;
+}
+.top{
+    display: block;
+}
+.top{
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+h3{
+    font-size: 1.1em;
+    color: rgb(148, 147, 147);
+}
+.main-hero h3 .v-name{
+    margin-top: 10em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #484848;
+}
+.state{
+    font-size: 1em;
+    margin: 0.6em 0;
+    color: gray;
+}
+.photo{
+    border-radius: 50%;
+    margin: -10%;
+}
+.hero-name{
+    margin-top: 2.7em;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    padding: 0 2em;
+}
+.footer h3{
+    color: rgb(65, 64, 64);
+    margin: 0 1.6em;
+}
+.break{
+    color: black;
+}
+.break{
+    margin-top: 2.2em;
+}
+hr { display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; 
+    padding: 0; 
+}
+.main-hero{
+    /* box-sizing: border-box; */
+    box-shadow: 2px 2px solid #484848;
+}
